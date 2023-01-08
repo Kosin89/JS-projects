@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: rgb(177, 177, 177);
+	font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+	width: 600px;
+	background-color: #fff;
+	box-shadow: 0 0 10px black;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.top {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 200px;
+   line-height: 30px;
+   color: white;
+   background-color: rgb(8, 168, 147);
+   text-transform: uppercase;
+}
+
+h1 {
+   font-size: 26px;
+}
+.top p {
+   font-size: 12px;
+}
+
+.bottom {
+   display: flex;
+   flex-direction: column; 
+   padding: 40px 20px; 
+}
+
+
+label {
+   font-size: 20px;
+   margin-bottom: 10px;
+   color: rgba(61, 61, 61, 0.811);
+}
+input, select {
+   margin-bottom: 20px;
+   padding: 5px;
+   border: 1px solid rgb(185, 185, 185);
+   background-color: #fff;
+}
+
+.count {
+   margin: 10px auto;
+   padding: 20px;
+   font-size: 16px;
+   width: 40%;
+   color: white;
+   background-color: rgb(8, 168, 147);
+   border-radius: 10px;
+   border: transparent;
+   cursor: pointer;
+}
+
+.bottom p {
+   margin-top: 10px;
+   font-size: 20px;
+   color: rgba(61, 61, 61, 0.811);
+   text-align: center;
+}
+
+.cost {
+   font-weight: bold;
+}
+
+.cost-info {
+   display: none;
+   color: aqua;
+}
+
+.error {
+   color: rgb(221, 6, 6);
+}
