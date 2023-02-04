@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
+}
+
+
+.btn {
+	position: relative;
+	padding: 1.5em 3em;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.btn-1 {
+	background-color: royalblue;
+}
+.btn-2 {
+	background-color: rgb(65, 225, 137);
+}
+.btn-3 {
+	background-color: rgb(225, 65, 220);
+}
+
+.circle {
+	position: absolute;
+	height: 80px;
+	width: 80px;	
+	background-color: white;
+	border-radius: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	animation: zoom 0.3s;
+}
+
+@keyframes zoom {
+	to {
+		transform: translate(-50%, -50%) scale(2);
+		opacity: 0;
+	}
+}
