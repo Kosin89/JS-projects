@@ -10,5 +10,61 @@ body {
 	align-items: center;
 	height: 100vh;
 	font-family: 'Montserrat', sans-serif;
-	background-color: #333;
+	background-color: #f6483b;
+}
+
+
+.accordion {
+	padding: 0.5rem;
+	background-color: #fff;
+	width: 600px;
+	border-radius: 6px;
+}
+
+.accordion-box {
+	padding: 0.5rem;
+	
+}
+
+.accordion-btn {
+	padding: 1rem;
+	width: 100%;
+	text-align: left;
+	font-size: 1.5rem;
+	border: none;
+	cursor: pointer;
+}
+
+.accordion-btn i {
+	margin-right: 1rem;
+	color: #f6483b;
+}
+
+.accordion-btn:hover,
+.accordion-btn:focus {
+	background-color: #f6483b;
+	color: white;
+	outline: none;
+}	
+
+.accordion-btn:hover i,
+.accordion-btn:focus i {
+	color: white;
+}
+
+.accordion-info {
+	padding: 1rem;
+}
+
+.accordion-info-text {
+	padding: 0.3rem;
+}
+
+
+.accordion-info {
+	display: none;
+}
+
+.active {
+	display: block;
 }
