@@ -41,5 +41,4 @@ const resetInterval = () => {
 }
 
 rightBtn.addEventListener('click', handleRightArrow)
-
 leftBtn.addEventListener('click', handleLeftArrow)
